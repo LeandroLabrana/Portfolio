@@ -1,0 +1,171 @@
+body{
+    background: url(fondo2.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+/*NAV STYLE*/
+
+.bg-dark{
+    background-color: black !important;
+}
+.menunav{
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+}
+.firstcont{
+    margin-top: 200px;
+}
+.firstp{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-shadow: 1px -2px 2px #000;
+    color: #f59418;
+}
+.firstp:hover{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-shadow: 1px -2px 2px #000;
+    color: #f59418;
+}
+
+.logo{
+    position: absolute;
+    left: 35px;
+    margin-top: -28px;
+    z-index: -1;
+}
+
+img{
+    height: 55px;
+}
+
+/*ABOUT STYLE*/
+
+.profile{
+    width: 230px;
+    height: auto;
+    border-radius: 40% !important;
+}
+.profile:hover{
+    width: 300px;
+    height: auto;
+    border-radius: 40% !important;
+}
+
+.animated {
+    animation-duration: 5.5s;
+    animation-fill-mode: both;
+    animation-iteration-count:1;
+  }
+  @keyframes rubberBand {
+    0% {transform: scale(1);}
+    30% {transform: scaleX(1.25) scaleY(0.75);}
+    40% {transform: scaleX(0.75) scaleY(1.25);}
+    60% {transform: scaleX(1.15) scaleY(0.85);}
+    100% {transform: scale(1);}
+  }
+  .rubberBand {
+    animation-name: rubberBand;
+  }
+/*----------------------------------*/
+
+/*SKILLS STYLE*/
+
+.bg1{
+    background-color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 310px;
+    height: 400px;
+}
+.icons{
+   font-size: 50px;
+}
+.icons .colored:hover{
+    font-size: 60px;
+    color: black;
+    cursor: pointer;
+ }
+/*----------------------------------*/
+
+/*PORTFOLIO STYLE*/
+
+#portfolio img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px;
+}
+#portfolio h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-shadow: 1px -2px 2px #000;
+    color: #f59418;
+}
+.star{
+    color: #f59418 !important;
+    text-shadow: 1px -2px 2px #000;
+    margin: 15px auto 2px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+.port1{
+    height: 285px !important;
+    width: 285px;
+}
+/*-----------------------------------*/
+
+/* CONTACT/ REDES STYLE*/
+
+.fondo4 {
+    background-color: #000;
+    }
+  
+  h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-shadow: 1px -2px 2px #000;
+    color: #f59418;
+  }
+  
+  form label {
+    font-family: 'Amatic SC', cursive;
+    color: #f59418; }
+
+ 
+  .redes{
+    background-color: #000;
+}
+
+.social li{
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px;
+}
+.social span{
+    font-size: 35px;
+}
+
+.facebook{
+    color: #3b5998;
+}
+.github{
+    color: #333;
+}
+.linkedin{
+    color: #0077b5;
+}
+.camp{
+    color:  #006400;
+}
+
+.social span:hover{
+    color: #f59418;
+    font-size: 40px;
+}
+/*--------------------------------*/
+
+
